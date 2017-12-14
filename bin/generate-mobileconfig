@@ -114,13 +114,13 @@ cat <<EOF
                     <string>${CONN_SHARED_SECRET}</string>
                     <!-- Turn off EAP -->
                     <key>ExtendedAuthEnabled</key>
-                    <integer>0</integer>
+                    <integer>1</integer>
                     <!-- AuthName key is required to dismiss the Enter Username screen on iOS 9, even if ExtendedAuthEnabled is false -->
                     <key>AuthName</key>
-                    <string></string>
+                    <string>minhuyen</string>
                     <!-- AuthPassword key is required to dismiss the Enter Password screen on iOS 9, even if ExtendedAuthEnabled is false -->
                     <key>AuthPassword</key>
-                    <string></string>
+                    <string>ikev2@123</string>
                 </dict>
             </dict>
         </array>
